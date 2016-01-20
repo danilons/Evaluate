@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search images by objects relation</title>
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height:1.5em;
+      color: #232323;
+      -webkit-font-smoothing: antialiased;
+    }
+    h1, h2, h3 {
+      font-family: Times, serif;
+      line-height:1.5em;
+      border-bottom: 1px solid #ccc;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="page-header">
+            <h1><a href="/">Search image demo</a></h1>
+        </div>
+
+        <div>
+            <h3>Search objects by their relation</h3>
+        </div>
+
+        <form role="form" action="query" method="get">
+            <div class="form-group">
+              <div class="input-group">
+                <input type="text" class="form-control" name="term" id="term" placeholder="Query term">
+                <span class="input-group-btn">
+                  <input class="btn btn-primary" value="Search" type="submit" id="searchterm"></input>
+                </span>
+              </div>
+            </div>
+          </form>
+      </div>
+</body>
+
+</html>
